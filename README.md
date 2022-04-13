@@ -38,3 +38,4 @@ docker-compose up --build
 * Go to Collections -> Import
 * Select `/postman-collections/Tenpo challenge.postman_collection.json` file
 * Execute endpoints to test the api
+ * (Note: To execute `sum` and `Get Sum History` endpoints you need to authenticate first and use the token as a bearer token)
