@@ -1,6 +1,6 @@
 # tenpo-challenge
 
-# Install Docker
+# Install Docker Compose
 
 ### Windows and macOS
 
