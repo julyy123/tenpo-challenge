@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgresqldb:5432/tenpo
+    username: tenpo
+    password: tenpo
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create
+  sql:
+    init:
+      mode: always
+
+security:
+  jwt:
+    secret: "ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKU2IyeGxJam9pUVdSdGFXNGlMQ0pKYzNOMVpYSWlPaUpKYzNOMVpYSWlMQ0pWYzJWeWJtRnRaU0k2SWtwaGRtRkpibFZ6WlNJc0ltVjRjQ0k2TVRZME9UWXlOVGsyTnl3aWFXRjBJam94TmpRNU5qSTFPVFkzZlEuTzNkNjVQTV9WYXRxQUJHZlFsb2tpRVV2aERMOUZiRW9PemZPN25SbDl5SQ0K="
+    expiration_time_seconds: 1800
+
+server:
+  port: 8080
